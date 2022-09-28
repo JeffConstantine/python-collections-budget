@@ -31,3 +31,6 @@ def main():
         myBudgetList.append(expense.amount)
 
     print('The count of all expenses: ' + str(len(myBudgetList)))
+
+if __name__ == "__main__":
+    main()
