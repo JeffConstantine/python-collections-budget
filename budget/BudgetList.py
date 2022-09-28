@@ -10,4 +10,3 @@ class BudgetList:
         self.overages = []
 
 def append(self, item):
-    pass
