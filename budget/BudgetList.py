@@ -28,9 +28,9 @@ class BudgetList:
         self.iter_o(self.overages)
         return self
 
-    def __next__(self)
+    def __next__(self):
         try:
-            return __next__(self.iter_o)
+            return self.iter_e.__next__()
 
 def main():
     myBudgetList = BudgetList(1200)
@@ -40,7 +40,8 @@ def main():
         myBudgetList.append(expense.amount)
 
     print('The count of all expenses: ' + str(len(myBudgetList)))
-    for print(entry)
+    for entry in myBudgetList:
+        print(entry)
 
 if __name__ == "__main__":
     main()
